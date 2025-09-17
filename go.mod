@@ -1,4 +1,4 @@
-module github.com/decred/dcrd
+module github.com/leedeternal/dcrd
 
 go 1.19
 
