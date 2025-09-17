@@ -9,9 +9,9 @@ import (
 	"encoding/binary"
 	"sort"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/crypto/blake256"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/crypto/blake256"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // deriveSessionID creates the mix session identifier from an initial sorted

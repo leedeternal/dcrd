@@ -7,7 +7,7 @@ package mixing
 import (
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/v3"
+	"github.com/leedeternal/dcrd/chaincfg/v3"
 )
 
 // MaxExpiry returns the maximum allowed expiry for a new pair request message

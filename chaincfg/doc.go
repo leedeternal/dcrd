@@ -24,8 +24,8 @@
 //		"fmt"
 //		"log"
 //
-//		"github.com/decred/dcrd/chaincfg/v3"
-//		"github.com/decred/dcrd/txscript/v4/stdaddr"
+//		"github.com/leedeternal/dcrd/chaincfg/v3"
+//		"github.com/leedeternal/dcrd/txscript/v4/stdaddr"
 //	)
 //
 //	func main() {

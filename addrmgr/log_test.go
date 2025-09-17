@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"testing"
 
-	"github.com/decred/slog"
+	"github.com/leedeternal/slog"
 )
 
 var testLogger = slog.NewBackend(&testWriter{}).Logger("TEST")

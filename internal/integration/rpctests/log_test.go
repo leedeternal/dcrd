@@ -9,8 +9,8 @@ package rpctests
 import (
 	"testing"
 
-	"github.com/decred/dcrtest/dcrdtest"
-	"github.com/decred/slog"
+	"github.com/leedeternal/dcrtest/dcrdtest"
+	"github.com/leedeternal/slog"
 )
 
 type testLog struct {

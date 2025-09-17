@@ -7,7 +7,7 @@ package mixclient
 import (
 	"errors"
 
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 var errExceedsStandardSize = errors.New("tx size would exceed standardness rules")

@@ -5,8 +5,8 @@
 package mining
 
 import (
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/dcrutil/v4"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/dcrutil/v4"
 )
 
 // txDescGraph relates a set of transactions to their respective descendants and

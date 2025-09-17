@@ -13,15 +13,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v5"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v3"
-	"github.com/decred/dcrd/database/v3"
-	"github.com/decred/dcrd/dcrutil/v4"
-	"github.com/decred/dcrd/gcs/v4"
-	"github.com/decred/dcrd/gcs/v4/blockcf2"
-	"github.com/decred/dcrd/math/uint256"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/blockchain/stake/v5"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/v3"
+	"github.com/leedeternal/dcrd/database/v3"
+	"github.com/leedeternal/dcrd/dcrutil/v4"
+	"github.com/leedeternal/dcrd/gcs/v4"
+	"github.com/leedeternal/dcrd/gcs/v4/blockcf2"
+	"github.com/leedeternal/dcrd/math/uint256"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 const (

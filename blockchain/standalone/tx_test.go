@@ -10,7 +10,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // TestIsCoinbaseTx ensures the coinbase identification works as intended.

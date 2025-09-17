@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/decred/dcrd/addrmgr/v3"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/addrmgr/v3"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // TestHostToNetAddress ensures that hostToNetAddress behaves as expected

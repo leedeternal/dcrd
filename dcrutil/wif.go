@@ -10,11 +10,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/decred/base58"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/dcrec"
-	"github.com/decred/dcrd/dcrec/edwards/v2"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
+	"github.com/leedeternal/base58"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/dcrec"
+	"github.com/leedeternal/dcrd/dcrec/edwards/v2"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"
 )
 
 var (

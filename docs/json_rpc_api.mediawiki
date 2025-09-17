@@ -4,14 +4,14 @@ dcrd provides a [https://jsonrpc.org/specification JSON-RPC] API that is
 fully compatible with the original bitcoind/bitcoin-qt.  There are a few key
 differences between dcrd and bitcoind as far as how RPCs are serviced:
 
-* Unlike bitcoind that has the wallet and chain intermingled in the same process which leads to several issues, dcrd intentionally splits the wallet and chain services into independent processes.  See the blog post [https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon/ here] for further details on why they were separated.  This means that if you are talking directly to dcrd, only chain-related RPCs are available.  However both chain-related and wallet-related RPCs are available via [https://github.com/decred/dcrwallet dcrwallet].
+* Unlike bitcoind that has the wallet and chain intermingled in the same process which leads to several issues, dcrd intentionally splits the wallet and chain services into independent processes.  See the blog post [https://blog.conformal.com/btcd-not-your-moms-bitcoin-daemon/ here] for further details on why they were separated.  This means that if you are talking directly to dcrd, only chain-related RPCs are available.  However both chain-related and wallet-related RPCs are available via [https://github.com/leedeternal/dcrwallet dcrwallet].
 
 * dcrd is secure by default which means that the RPC connection is TLS-enabled by default
 
 * dcrd provides access to the API through both [https://en.wikipedia.org/wiki/POST_%28HTTP%29 HTTP POST] requests and [https://en.wikipedia.org/wiki/WebSocket Websockets]
 
 Websockets are the preferred transport for dcrd RPC and are used by applications
-such as [https://github.com/decred/dcrwallet dcrwallet] for inter-process
+such as [https://github.com/leedeternal/dcrwallet dcrwallet] for inter-process
 communication with dcrd.  The websocket connection endpoint for dcrd is
 <code>wss://your_ip_or_domain:9109/ws</code>.
 
@@ -102,7 +102,7 @@ authenticated will cause the websocket to be closed immediately.
 
 ==4. Command-line Utility==
 
-dcrd is built to work with [https://github.com/decred/dcrctl <code>dcrctl</code>]
+dcrd is built to work with [https://github.com/leedeternal/dcrctl <code>dcrctl</code>]
 which can be used to issue these RPC commands via HTTP POST requests to dcrd
 after configuring it with the information in the [[#3-authentication|Authentication]]
 section above.  It can also be used to communicate with any server/daemon/service
@@ -3435,7 +3435,7 @@ various languages.
 ===8.1 Example Go Code===
 
 This section provides examples of using the RPC interface using Go and the
-[https://github.com/decred/dcrd/tree/master/rpcclient rpcclient] package.
+[https://github.com/leedeternal/dcrd/tree/master/rpcclient rpcclient] package.
 
 * [[#811-using-getblockcount-to-retrieve-the-current-block-height|Using getblockcount to Retrieve the Current Block Height]]
 * [[#812-using-getblock-to-retrieve-the-genesis-block|Using getblock to Retrieve the Genesis Block]]
@@ -3444,7 +3444,7 @@ This section provides examples of using the RPC interface using Go and the
 ====8.1.1 Using getblockcount to Retrieve the Current Block Height====
 
 The following is an example Go application which uses the
-[https://github.com/decred/dcrd/tree/master/rpcclient rpcclient] package to connect with
+[https://github.com/leedeternal/dcrd/tree/master/rpcclient rpcclient] package to connect with
 a dcrd instance via Websockets, issues [[#getblockcount|getblockcount]] to
 retrieve the current block height, and displays it.
 
@@ -3457,8 +3457,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/decred/dcrd/dcrutil/v4"
-	"github.com/decred/dcrd/rpcclient/v8"
+	"github.com/leedeternal/dcrd/dcrutil/v4"
+	"github.com/leedeternal/dcrd/rpcclient/v8"
 )
 
 func main() {
@@ -3506,7 +3506,7 @@ Block count: 203528
 ====8.1.2 Using getblock to Retrieve the Genesis Block====
 
 The following is an example Go application which uses the
-[https://github.com/decred/dcrd/tree/master/rpcclient rpcclient] package to connect with
+[https://github.com/leedeternal/dcrd/tree/master/rpcclient rpcclient] package to connect with
 a dcrd instance via Websockets, issues [[#getblock|getblock]] to retrieve
 information about the Genesis block, and display a few details about it.
 
@@ -3520,9 +3520,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/dcrutil/v4"
-	"github.com/decred/dcrd/rpcclient/v8"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/dcrutil/v4"
+	"github.com/leedeternal/dcrd/rpcclient/v8"
 )
 
 func main() {
@@ -3595,7 +3595,7 @@ Num transactions: 1
 ====8.1.3 Using notifyblocks to Receive blockconnected and blockdisconnected Notifications (Websocket-specific)====
 
 The following is an example Go application which uses the
-[https://github.com/decred/dcrd/tree/master/rpcclient rpcclient] package to connect with
+[https://github.com/leedeternal/dcrd/tree/master/rpcclient rpcclient] package to connect with
 a dcrd instance via Websockets and registers for
 [[#blockconnected|blockconnected]] and [[#blockdisconnected|blockdisconnected]]
 notifications with [[#notifyblocks|notifyblocks]].  It also sets up handlers for
@@ -3611,8 +3611,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/decred/dcrd/dcrutil/v4"
-	"github.com/decred/dcrd/rpcclient/v8"
+	"github.com/leedeternal/dcrd/dcrutil/v4"
+	"github.com/leedeternal/dcrd/rpcclient/v8"
 )
 
 func main() {

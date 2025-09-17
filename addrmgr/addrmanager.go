@@ -16,9 +16,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/crypto/rand"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // peersFilename is the default filename to store serialized peers.

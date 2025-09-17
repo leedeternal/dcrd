@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v5"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/database/v3"
-	"github.com/decred/dcrd/internal/staging/primitives"
-	"github.com/decred/dcrd/math/uint256"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/blockchain/stake/v5"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/database/v3"
+	"github.com/leedeternal/dcrd/internal/staging/primitives"
+	"github.com/leedeternal/dcrd/math/uint256"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // blockStatus is a bit field representing the validation state of the block.

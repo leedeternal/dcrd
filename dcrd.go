@@ -15,10 +15,10 @@ import (
 	"runtime/pprof"
 	"strings"
 
-	"github.com/decred/dcrd/internal/blockchain"
-	"github.com/decred/dcrd/internal/blockchain/indexers"
-	"github.com/decred/dcrd/internal/limits"
-	"github.com/decred/dcrd/internal/version"
+	"github.com/leedeternal/dcrd/internal/blockchain"
+	"github.com/leedeternal/dcrd/internal/blockchain/indexers"
+	"github.com/leedeternal/dcrd/internal/limits"
+	"github.com/leedeternal/dcrd/internal/version"
 )
 
 var cfg *config

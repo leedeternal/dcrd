@@ -16,7 +16,7 @@
       <method_credential group='dcrd' user='dcrd'/>
     </method_context>
 
-    <exec_method name='start' type='method' exec='/opt/decred/bin/dcrd --appdata /var/dcrd' timeout_seconds='60'/>
+    <exec_method name='start' type='method' exec='/opt/leedeternal/bin/dcrd --appdata /var/dcrd' timeout_seconds='60'/>
     <exec_method name='stop' type='method' exec=':kill' timeout_seconds='60'/>
 
     <property_group name='startd' type='framework'>

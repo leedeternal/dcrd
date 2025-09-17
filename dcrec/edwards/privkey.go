@@ -13,7 +13,7 @@ import (
 	"math/big"
 
 	"github.com/agl/ed25519"
-	"github.com/decred/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/crypto/rand"
 )
 
 // These constants define the lengths of serialized private keys.

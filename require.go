@@ -13,6 +13,6 @@
 package main
 
 import (
-	_ "github.com/decred/dcrd/bech32"
-	_ "github.com/decred/dcrd/mixing/mixclient"
+	_ "github.com/leedeternal/dcrd/bech32"
+	_ "github.com/leedeternal/dcrd/mixing/mixclient"
 )

@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 )
 
 // TestHashToBig ensures HashToBig properly converts a hash treated as a little

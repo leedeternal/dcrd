@@ -5,7 +5,7 @@
 package blockchain
 
 import (
-	"github.com/decred/dcrd/blockchain/stake/v5"
+	"github.com/leedeternal/dcrd/blockchain/stake/v5"
 )
 
 const (

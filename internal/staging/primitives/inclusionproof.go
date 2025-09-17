@@ -5,7 +5,7 @@
 package primitives
 
 import (
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 )
 
 // log2FloorMasks defines the masks to use when quickly calculating

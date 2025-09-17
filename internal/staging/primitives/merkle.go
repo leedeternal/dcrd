@@ -5,7 +5,7 @@
 package primitives
 
 import (
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 )
 
 // CalcMerkleRootInPlace is an in-place version of CalcMerkleRoot that reuses

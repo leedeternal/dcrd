@@ -14,14 +14,14 @@ import (
 	"hash"
 	"strings"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/crypto/ripemd160"
-	"github.com/decred/dcrd/dcrec"
-	"github.com/decred/dcrd/dcrec/edwards/v2"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/crypto/ripemd160"
+	"github.com/leedeternal/dcrd/dcrec"
+	"github.com/leedeternal/dcrd/dcrec/edwards/v2"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4/ecdsa"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4/schnorr"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // optimizeSigVerification is an optimization for verification of transactions

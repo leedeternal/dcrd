@@ -8,7 +8,7 @@
 
 package types
 
-import "github.com/decred/dcrd/dcrjson/v4"
+import "github.com/leedeternal/dcrd/dcrjson/v4"
 
 const (
 	// BlockConnectedNtfnMethod is the method used for notifications from

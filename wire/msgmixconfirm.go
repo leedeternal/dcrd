@@ -9,7 +9,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 )
 
 // MsgMixConfirm contains a partially-signed mix transaction, with signatures

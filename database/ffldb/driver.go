@@ -8,9 +8,9 @@ package ffldb
 import (
 	"fmt"
 
-	"github.com/decred/dcrd/database/v3"
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/slog"
+	"github.com/leedeternal/dcrd/database/v3"
+	"github.com/leedeternal/dcrd/wire"
+	"github.com/leedeternal/slog"
 )
 
 var log = slog.Disabled

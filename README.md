@@ -1,10 +1,10 @@
 dcrd
 ====
 
-[![Build Status](https://github.com/decred/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/decred/dcrd/actions)
+[![Build Status](https://github.com/leedeternal/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/leedeternal/dcrd/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/decred/dcrd)
-[![Go Report Card](https://goreportcard.com/badge/github.com/decred/dcrd)](https://goreportcard.com/report/github.com/decred/dcrd)
+[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/leedeternal/dcrd)
+[![Go Report Card](https://goreportcard.com/badge/github.com/leedeternal/dcrd)](https://goreportcard.com/report/github.com/leedeternal/dcrd)
 
 ## Decred Overview
 
@@ -23,14 +23,14 @@ https://decred.org/downloads/
 Core software:
 
 * dcrd: a Decred full node daemon (this)
-* [dcrwallet](https://github.com/decred/dcrwallet): a CLI Decred wallet daemon
-* [dcrctl](https://github.com/decred/dcrctl): a CLI client for dcrd and dcrwallet
+* [dcrwallet](https://github.com/leedeternal/dcrwallet): a CLI Decred wallet daemon
+* [dcrctl](https://github.com/leedeternal/dcrctl): a CLI client for dcrd and dcrwallet
 
 Bundles:
 
-* [Decrediton](https://github.com/decred/decrediton): a GUI bundle for `dcrd`
+* [Decrediton](https://github.com/leedeternal/decrediton): a GUI bundle for `dcrd`
   and `dcrwallet`
-* [CLI app suite](https://github.com/decred/decred-release/releases/latest):
+* [CLI app suite](https://github.com/leedeternal/decred-release/releases/latest):
   a CLI bundle for `dcrd` and `dcrwallet`
 
 ## What is dcrd?
@@ -45,8 +45,8 @@ This software is currently under active development.  It is extremely stable and
 has been in production use since February 2016.
 
 It important to note that dcrd does *NOT* include wallet functionality.  Users
-who desire a wallet will need to use [dcrwallet(CLI)](https://github.com/decred/dcrwallet)
-or [Decrediton(GUI)](https://github.com/decred/decrediton).
+who desire a wallet will need to use [dcrwallet(CLI)](https://github.com/leedeternal/dcrwallet)
+or [Decrediton(GUI)](https://github.com/leedeternal/decrediton).
 
 ## What is a full node?
 
@@ -82,8 +82,8 @@ censorship.
 In terms of individual benefits, since dcrd fully validates every block and
 transaction, it provides the highest security and privacy possible when used in
 conjunction with a wallet that also supports directly connecting to it in full
-validation mode, such as [dcrwallet (CLI)](https://github.com/decred/dcrwallet)
-and [Decrediton (GUI)](https://github.com/decred/decrediton).  It is also ideal
+validation mode, such as [dcrwallet (CLI)](https://github.com/leedeternal/dcrwallet)
+and [Decrediton (GUI)](https://github.com/leedeternal/decrediton).  It is also ideal
 for businesses and services that need the most reliable and accurate data about
 transactions.
 
@@ -159,7 +159,7 @@ https://decred.org/downloads/
 <details><summary><b>Windows Example</b></summary>
 
   ```PowerShell
-  PS> git clone https://github.com/decred/dcrd $env:USERPROFILE\src\dcrd
+  PS> git clone https://github.com/leedeternal/dcrd $env:USERPROFILE\src\dcrd
   PS> cd $env:USERPROFILE\src\dcrd
   PS> go install . .\cmd\...
   PS> dcrd -V
@@ -173,8 +173,8 @@ https://decred.org/downloads/
   in dependencies.
 
   ```sh
-  $ git clone https://github.com/decred/dcrd $HOME/src/dcrd
-  $ git clone https://github.com/decred/dcrctl $HOME/src/dcrctl
+  $ git clone https://github.com/leedeternal/dcrd $HOME/src/dcrd
+  $ git clone https://github.com/leedeternal/dcrctl $HOME/src/dcrctl
   $ (cd $HOME/src/dcrd && go install . ./...)
   $ (cd $HOME/src/dcrctl && go install)
   $ dcrd -V
@@ -223,13 +223,13 @@ https://decred.org/community/
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/decred/dcrd/issues)
+The [integrated github issue tracker](https://github.com/leedeternal/dcrd/issues)
 is used for this project.
 
 ## Documentation
 
 The documentation for dcrd is a work-in-progress.  It is located in the
-[docs](https://github.com/decred/dcrd/tree/master/docs) folder.
+[docs](https://github.com/leedeternal/dcrd/tree/master/docs) folder.
 
 ## License
 

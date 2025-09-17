@@ -10,8 +10,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/decred/dcrd/blockchain/stake/v5/internal/tickettreap"
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/blockchain/stake/v5/internal/tickettreap"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 )
 
 var (

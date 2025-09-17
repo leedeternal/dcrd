@@ -8,7 +8,7 @@ package treap
 import (
 	"bytes"
 
-	"github.com/decred/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/crypto/rand"
 )
 
 // cloneTreapNode returns a shallow copy of the passed node.

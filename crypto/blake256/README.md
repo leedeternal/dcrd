@@ -1,9 +1,9 @@
 blake256
 ========
 
-[![Build Status](https://github.com/decred/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/decred/dcrd/actions)
+[![Build Status](https://github.com/leedeternal/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/leedeternal/dcrd/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/decred/dcrd/crypto/blake256)
+[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/leedeternal/dcrd/crypto/blake256)
 
 ## Overview
 
@@ -166,14 +166,14 @@ disabled.
 
 ## Examples
 
-* [Basic Usage](https://pkg.go.dev/github.com/decred/dcrd/crypto/blake256#example-package-BasicUsage)  
+* [Basic Usage](https://pkg.go.dev/github.com/leedeternal/dcrd/crypto/blake256#example-package-BasicUsage)  
   Demonstrates the simplest method of hashing an existing serialized data buffer
   with BLAKE-256.
-* [Rolling Hasher Usage](https://pkg.go.dev/github.com/decred/dcrd/crypto/blake256#example-package-RollingHasherUsage)  
+* [Rolling Hasher Usage](https://pkg.go.dev/github.com/leedeternal/dcrd/crypto/blake256#example-package-RollingHasherUsage)  
   Demonstrates creating a rolling BLAKE-256 hasher, writing various data types
   to it, computing the hash, writing more data, and finally computing the
   cumulative hash.
-* [Same Process Save and Restore](https://pkg.go.dev/github.com/decred/dcrd/crypto/blake256#example-package-SameProcessSaveRestore)  
+* [Same Process Save and Restore](https://pkg.go.dev/github.com/leedeternal/dcrd/crypto/blake256#example-package-SameProcessSaveRestore)  
   Demonstrates creating a rolling BLAKE-256 hasher, writing some data to it,
   making a copy of the intermediate state, restoring the intermediate state in
   multiple goroutines, writing more data to each of those restored copies, and
@@ -181,7 +181,7 @@ disabled.
 
 ## Installation and Updating
 
-This package is part of the `github.com/decred/dcrd/crypto/blake256` module.
+This package is part of the `github.com/leedeternal/dcrd/crypto/blake256` module.
 Use the standard go tooling for working with modules to incorporate it.
 
 ## License

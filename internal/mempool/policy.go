@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v5"
-	"github.com/decred/dcrd/dcrutil/v4"
-	"github.com/decred/dcrd/internal/blockchain"
-	"github.com/decred/dcrd/txscript/v4"
-	"github.com/decred/dcrd/txscript/v4/stdscript"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/blockchain/stake/v5"
+	"github.com/leedeternal/dcrd/dcrutil/v4"
+	"github.com/leedeternal/dcrd/internal/blockchain"
+	"github.com/leedeternal/dcrd/txscript/v4"
+	"github.com/leedeternal/dcrd/txscript/v4/stdscript"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 const (

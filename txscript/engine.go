@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/slog"
+	"github.com/leedeternal/dcrd/wire"
+	"github.com/leedeternal/slog"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

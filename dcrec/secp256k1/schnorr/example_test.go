@@ -8,9 +8,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/decred/dcrd/crypto/blake256"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
+	"github.com/leedeternal/dcrd/crypto/blake256"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4/schnorr"
 )
 
 // This example demonstrates signing a message with the EC-Schnorr-DCRv0 scheme

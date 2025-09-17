@@ -31,23 +31,23 @@ RUN adduser \
     "${USER}"
 
 # Build dcrd and other commands it provides.
-WORKDIR /go/src/github.com/decred/dcrd
+WORKDIR /go/src/github.com/leedeternal/dcrd
 ARG DCRD_BUILD_TAG=master
-RUN git clone --branch ${DCRD_BUILD_TAG} -c advice.detachedHead=false https://github.com/decred/dcrd . && \
+RUN git clone --branch ${DCRD_BUILD_TAG} -c advice.detachedHead=false https://github.com/leedeternal/dcrd . && \
     CGO_ENABLED=0 GOOS=linux \
     go install -trimpath -tags safe,netgo,timetzdata \
       -ldflags="-s -w" \
       . ./cmd/gencerts ./cmd/promptsecret
 
 # Build dcrctl.
-WORKDIR /go/src/github.com/decred/dcrctl
+WORKDIR /go/src/github.com/leedeternal/dcrctl
 ARG DCRCTL_BUILD_TAG=${DCRD_BUILD_TAG}
-RUN git clone --branch ${DCRCTL_BUILD_TAG} -c advice.detachedHead=false https://github.com/decred/dcrctl . && \
+RUN git clone --branch ${DCRCTL_BUILD_TAG} -c advice.detachedHead=false https://github.com/leedeternal/dcrctl . && \
     CGO_ENABLED=0 GOOS=linux \
     go install -trimpath -tags safe,netgo -ldflags="-s -w"
 
 # Build entrypoint helper for the production image.
-WORKDIR /go/src/github.com/decred/dcrd/contrib/docker/entrypoint
+WORKDIR /go/src/github.com/leedeternal/dcrd/contrib/docker/entrypoint
 COPY ./contrib/docker/entrypoint/entrypoint.go .
 RUN go mod init entrypoint && \
     go mod tidy && \

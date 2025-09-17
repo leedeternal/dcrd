@@ -22,7 +22,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/decred/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/crypto/rand"
 	flags "github.com/jessevdk/go-flags"
 	"golang.org/x/net/idna"
 )

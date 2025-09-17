@@ -13,12 +13,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/decred/dcrd/mixing"
-	"github.com/decred/dcrd/mixing/internal/chacha20prng"
-	"github.com/decred/dcrd/mixing/mixpool"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"
+	"github.com/leedeternal/dcrd/mixing"
+	"github.com/leedeternal/dcrd/mixing/internal/chacha20prng"
+	"github.com/leedeternal/dcrd/mixing/mixpool"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 var errBlameFailed = errors.New("blame failed")

@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/decred/dcrd/peer/v3"
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/go-socks/socks"
+	"github.com/leedeternal/dcrd/peer/v3"
+	"github.com/leedeternal/dcrd/wire"
+	"github.com/leedeternal/go-socks/socks"
 )
 
 // TestBanPeer tests ban manager peer banning functionality.

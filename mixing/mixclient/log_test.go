@@ -7,8 +7,8 @@ package mixclient
 import (
 	"testing"
 
-	"github.com/decred/dcrd/mixing/mixpool"
-	"github.com/decred/slog"
+	"github.com/leedeternal/dcrd/mixing/mixpool"
+	"github.com/leedeternal/slog"
 )
 
 type testLog struct {

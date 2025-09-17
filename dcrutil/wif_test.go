@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/decred/dcrd/dcrec"
+	"github.com/leedeternal/dcrd/dcrec"
 )
 
 // TestWIF ensures that WIF-related APIs work as intended including that they

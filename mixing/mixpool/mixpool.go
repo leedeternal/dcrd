@@ -14,16 +14,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v3"
-	"github.com/decred/dcrd/container/lru"
-	"github.com/decred/dcrd/mixing"
-	"github.com/decred/dcrd/mixing/utxoproof"
-	"github.com/decred/dcrd/txscript/v4"
-	"github.com/decred/dcrd/txscript/v4/stdaddr"
-	"github.com/decred/dcrd/txscript/v4/stdscript"
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/slog"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/v3"
+	"github.com/leedeternal/dcrd/container/lru"
+	"github.com/leedeternal/dcrd/mixing"
+	"github.com/leedeternal/dcrd/mixing/utxoproof"
+	"github.com/leedeternal/dcrd/txscript/v4"
+	"github.com/leedeternal/dcrd/txscript/v4/stdaddr"
+	"github.com/leedeternal/dcrd/txscript/v4/stdscript"
+	"github.com/leedeternal/dcrd/wire"
+	"github.com/leedeternal/slog"
 )
 
 const minconf = 1

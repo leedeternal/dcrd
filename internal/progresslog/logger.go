@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/slog"
+	"github.com/leedeternal/dcrd/wire"
+	"github.com/leedeternal/slog"
 )
 
 // pickNoun returns the singular or plural form of a noun depending on the

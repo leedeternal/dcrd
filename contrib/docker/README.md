@@ -354,8 +354,8 @@ $ sudo curl --cacert "${DECRED_DATA_VOLUME}/.dcrd/rpc.cert" \
 Write permission issues will typically look similar to:
 
 ```
-Error creating a default config file: mkdir /home/decred/.dcrd: permission denied
-loadConfig: failed to create home directory: mkdir /home/decred/.dcrd: permission denied
+Error creating a default config file: mkdir /home/leedeternal/.dcrd: permission denied
+loadConfig: failed to create home directory: mkdir /home/leedeternal/.dcrd: permission denied
 exit status 1
 ```
 

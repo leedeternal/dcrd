@@ -1,9 +1,9 @@
 rand
 ====
 
-[![Build Status](https://github.com/decred/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/decred/dcrd/actions)
+[![Build Status](https://github.com/leedeternal/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/leedeternal/dcrd/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/decred/dcrd/crypto/rand)
+[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/leedeternal/dcrd/crypto/rand)
 
 ## Overview
 
@@ -77,7 +77,7 @@ Read (4KiB)   |    10.5µs ± 2%     |    5.4µs ± 1%    | -48.37%
 
 ## Installation and Updating
 
-This package is part of the `github.com/decred/dcrd/crypto/rand` module.  Use
+This package is part of the `github.com/leedeternal/dcrd/crypto/rand` module.  Use
 the standard go tooling for working with modules to incorporate it.
 
 ## License

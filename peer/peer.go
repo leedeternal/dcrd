@@ -19,13 +19,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/container/lru"
-	"github.com/decred/dcrd/crypto/blake256"
-	"github.com/decred/dcrd/crypto/rand"
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/go-socks/socks"
-	"github.com/decred/slog"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/container/lru"
+	"github.com/leedeternal/dcrd/crypto/blake256"
+	"github.com/leedeternal/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/wire"
+	"github.com/leedeternal/go-socks/socks"
+	"github.com/leedeternal/slog"
 )
 
 const (

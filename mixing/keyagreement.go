@@ -11,11 +11,11 @@ import (
 	"io"
 
 	"github.com/companyzero/sntrup4591761"
-	"github.com/decred/dcrd/crypto/blake256"
-	"github.com/decred/dcrd/crypto/rand"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/decred/dcrd/mixing/internal/chacha20prng"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/crypto/blake256"
+	"github.com/leedeternal/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"
+	"github.com/leedeternal/dcrd/mixing/internal/chacha20prng"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // Aliases for sntrup4591761 types.

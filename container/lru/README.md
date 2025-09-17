@@ -1,9 +1,9 @@
 lru
 ===
 
-[![Build Status](https://github.com/decred/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/decred/dcrd/actions)
+[![Build Status](https://github.com/leedeternal/dcrd/workflows/Build%20and%20Test/badge.svg)](https://github.com/leedeternal/dcrd/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/decred/dcrd/container/lru)
+[![Doc](https://img.shields.io/badge/doc-reference-blue.svg)](https://pkg.go.dev/github.com/leedeternal/dcrd/container/lru)
 
 Package lru provides generic type and concurrent safe LRU data structures with
 near O(1) perf and optional time-based expiration support.
@@ -110,23 +110,23 @@ SetExists                  | 34.7ns ± 1% | 0
 
 ## Installation and Updating
 
-This package is part of the `github.com/decred/dcrd/container/lru`
+This package is part of the `github.com/leedeternal/dcrd/container/lru`
 module.  Use the standard go tooling for working with modules to incorporate it.
 
 ## Examples
 
-* [Basic Map Usage](https://pkg.go.dev/github.com/decred/dcrd/container/lru#example-package-BasicMapUsage)
+* [Basic Map Usage](https://pkg.go.dev/github.com/leedeternal/dcrd/container/lru#example-package-BasicMapUsage)
   Demonstrates creating a new map instance, inserting items into the map,
   existence checking, looking up an item, causing an eviction of the
   least recently used item, and removing an item.
-* [Explicit Map Expiration](https://pkg.go.dev/github.com/decred/dcrd/container/lru#example-package-ExplicitMapExpiration)
+* [Explicit Map Expiration](https://pkg.go.dev/github.com/leedeternal/dcrd/container/lru#example-package-ExplicitMapExpiration)
   Demonstrates creating a new map instance with time-based expiration, inserting
   items into it, and manually triggering removal of expired items.
-* [Basic Set Usage](https://pkg.go.dev/github.com/decred/dcrd/container/lru#example-package-BasicSetUsage)
+* [Basic Set Usage](https://pkg.go.dev/github.com/leedeternal/dcrd/container/lru#example-package-BasicSetUsage)
   Demonstrates creating a new set instance, inserting items into the set,
   checking set containment, causing an eviction of the least recently used item,
   and removing an item.
-* [Per-Item Expiration](https://pkg.go.dev/github.com/decred/dcrd/container/lru#example-Set.PutWithTTL)
+* [Per-Item Expiration](https://pkg.go.dev/github.com/leedeternal/dcrd/container/lru#example-Set.PutWithTTL)
   Demonstrates per-item expiration by creating a new set instance with no
   time-based expiration, inserting items into it, updating one of the items to
   have a timeout, and manually triggering removal of expired item.

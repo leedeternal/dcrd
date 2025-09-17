@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/connmgr/v3"
-	"github.com/decred/dcrd/peer/v3"
+	"github.com/leedeternal/dcrd/connmgr/v3"
+	"github.com/leedeternal/dcrd/peer/v3"
 )
 
 // Config is the configuration struct for the ban manager.

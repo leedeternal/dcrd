@@ -8,7 +8,7 @@ package indexers
 import (
 	"context"
 
-	"github.com/decred/dcrd/database/v3"
+	"github.com/leedeternal/dcrd/database/v3"
 )
 
 const (

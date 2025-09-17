@@ -7,7 +7,7 @@ package primitives
 import (
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 )
 
 // TestCalcMerkleRoot ensures the expected merkle root is produced for known

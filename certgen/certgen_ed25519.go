@@ -21,7 +21,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/decred/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/crypto/rand"
 )
 
 // NewEd25519TLSCertPair returns a new PEM-encoded x.509 certificate pair with

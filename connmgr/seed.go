@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/decred/dcrd/crypto/rand"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/crypto/rand"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 const (

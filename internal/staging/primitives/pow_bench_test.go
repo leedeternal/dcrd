@@ -7,7 +7,7 @@ package primitives
 import (
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 )
 
 // BenchmarkDiffBitsToUint256 benchmarks converting the compact representation

@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/dchest/siphash"
-	"github.com/decred/dcrd/chaincfg/v3"
-	"github.com/decred/dcrd/gcs/v4"
-	"github.com/decred/dcrd/wire"
+	"github.com/leedeternal/dcrd/chaincfg/v3"
+	"github.com/leedeternal/dcrd/gcs/v4"
+	"github.com/leedeternal/dcrd/wire"
 )
 
 // TestMaxSize verifies the max size of blockcf2 filters for various

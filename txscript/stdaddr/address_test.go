@@ -10,10 +10,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/decred/base58"
-	"github.com/decred/dcrd/crypto/ripemd160"
-	"github.com/decred/dcrd/dcrec/edwards/v2"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
+	"github.com/leedeternal/base58"
+	"github.com/leedeternal/dcrd/crypto/ripemd160"
+	"github.com/leedeternal/dcrd/dcrec/edwards/v2"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"
 )
 
 // mockAddrParams implements the AddressParams interface and is used throughout

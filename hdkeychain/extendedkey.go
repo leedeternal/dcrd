@@ -18,10 +18,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/decred/base58"
-	"github.com/decred/dcrd/crypto/blake256"
-	"github.com/decred/dcrd/crypto/ripemd160"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
+	"github.com/leedeternal/base58"
+	"github.com/leedeternal/dcrd/crypto/blake256"
+	"github.com/leedeternal/dcrd/crypto/ripemd160"
+	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"
 )
 
 const (
