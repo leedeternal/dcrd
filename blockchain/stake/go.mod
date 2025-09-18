@@ -20,7 +20,7 @@ require (
 	github.com/leedeternal/dcrd/crypto/blake256 v1.0.1 // indirect
 	github.com/leedeternal/dcrd/crypto/ripemd160 v1.0.2 // indirect
 	github.com/leedeternal/dcrd/dcrec v1.0.1 // indirect
-	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.3 // indirect
+	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect

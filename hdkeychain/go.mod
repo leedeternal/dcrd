@@ -16,7 +16,7 @@ require (
 	github.com/dchest/siphash v1.2.3 // indirect
 	github.com/leedeternal/dcrd/chaincfg/chainhash v1.0.4 // indirect
 	github.com/leedeternal/dcrd/dcrec v1.0.1 // indirect
-	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.3 // indirect
+	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.4 // indirect
 	github.com/leedeternal/dcrd/wire v1.7.0 // indirect
 	github.com/leedeternal/slog v1.2.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect

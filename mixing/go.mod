@@ -26,7 +26,7 @@ require (
 	github.com/dchest/siphash v1.2.3 // indirect
 	github.com/leedeternal/base58 v1.0.5 // indirect
 	github.com/leedeternal/dcrd/crypto/ripemd160 v1.0.2 // indirect
-	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.3 // indirect
+	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	golang.org/x/sys v0.30.0 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect

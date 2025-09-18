@@ -8,7 +8,7 @@ require (
 	github.com/leedeternal/dcrd/chaincfg/chainhash v1.0.4
 	github.com/leedeternal/dcrd/crypto/ripemd160 v1.0.2
 	github.com/leedeternal/dcrd/dcrec v1.0.1
-	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.3
+	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.4
 	github.com/leedeternal/dcrd/dcrec/secp256k1/v4 v4.3.0
 	github.com/leedeternal/dcrd/txscript/v4 v4.1.1
 	github.com/leedeternal/dcrd/wire v1.7.0
