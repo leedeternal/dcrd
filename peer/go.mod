@@ -10,8 +10,8 @@ require (
 	github.com/leedeternal/dcrd/crypto/rand v1.0.0
 	github.com/leedeternal/dcrd/txscript/v4 v4.1.1
 	github.com/leedeternal/dcrd/wire v1.7.0
-	github.com/leedeternal/go-socks v1.1.0
-	github.com/leedeternal/slog v1.2.0
+	github.com/decred/go-socks v1.1.0
+	github.com/decred/slog v1.2.0
 )
 
 require (

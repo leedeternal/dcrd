@@ -3,7 +3,7 @@ module github.com/leedeternal/dcrd/hdkeychain/v3
 go 1.17
 
 require (
-	github.com/leedeternal/base58 v1.0.5
+	github.com/decred/base58 v1.0.5
 	github.com/leedeternal/dcrd/chaincfg/v3 v3.2.1
 	github.com/leedeternal/dcrd/crypto/blake256 v1.0.1
 	github.com/leedeternal/dcrd/crypto/ripemd160 v1.0.2
@@ -18,7 +18,7 @@ require (
 	github.com/leedeternal/dcrd/dcrec v1.0.1 // indirect
 	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.4 // indirect
 	github.com/leedeternal/dcrd/wire v1.7.0 // indirect
-	github.com/leedeternal/slog v1.2.0 // indirect
+	github.com/decred/slog v1.2.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect
 )

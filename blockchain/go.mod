@@ -16,11 +16,11 @@ require (
 require (
 	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412 // indirect
 	github.com/dchest/siphash v1.2.3 // indirect
-	github.com/leedeternal/base58 v1.0.5 // indirect
+	github.com/decred/base58 v1.0.5 // indirect
 	github.com/leedeternal/dcrd/crypto/blake256 v1.0.1 // indirect
 	github.com/leedeternal/dcrd/crypto/ripemd160 v1.0.2 // indirect
 	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.4 // indirect
-	github.com/leedeternal/slog v1.2.0 // indirect
+	github.com/decred/slog v1.2.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	golang.org/x/crypto v0.24.0 // indirect
 	golang.org/x/sys v0.21.0 // indirect

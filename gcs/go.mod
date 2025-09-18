@@ -14,14 +14,14 @@ require (
 
 require (
 	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412 // indirect
-	github.com/leedeternal/base58 v1.0.5 // indirect
+	github.com/decred/base58 v1.0.5 // indirect
 	github.com/leedeternal/dcrd/crypto/ripemd160 v1.0.2 // indirect
 	github.com/leedeternal/dcrd/database/v3 v3.0.2 // indirect
 	github.com/leedeternal/dcrd/dcrec v1.0.1 // indirect
 	github.com/leedeternal/dcrd/dcrec/edwards/v2 v2.0.4 // indirect
 	github.com/leedeternal/dcrd/dcrec/secp256k1/v4 v4.3.0 // indirect
 	github.com/leedeternal/dcrd/dcrutil/v4 v4.0.2 // indirect
-	github.com/leedeternal/slog v1.2.0 // indirect
+	github.com/decred/slog v1.2.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect
 )

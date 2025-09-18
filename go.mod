@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/leedeternal/base58 v1.0.5
+	github.com/decred/base58 v1.0.5
 	github.com/leedeternal/dcrd/addrmgr/v3 v3.0.0
 	github.com/leedeternal/dcrd/bech32 v1.1.4
 	github.com/leedeternal/dcrd/blockchain/stake/v5 v5.0.1
@@ -32,9 +32,9 @@ require (
 	github.com/leedeternal/dcrd/rpcclient/v8 v8.0.1
 	github.com/leedeternal/dcrd/txscript/v4 v4.1.1
 	github.com/leedeternal/dcrd/wire v1.7.0
-	github.com/leedeternal/dcrtest/dcrdtest v1.0.1-0.20240404170936-a2529e936df1
-	github.com/leedeternal/go-socks v1.1.0
-	github.com/leedeternal/slog v1.2.0
+	github.com/decred/dcrtest/dcrdtest v1.0.1-0.20240404170936-a2529e936df1
+	github.com/decred/go-socks v1.1.0
+	github.com/decred/slog v1.2.0
 	github.com/gorilla/websocket v1.5.1
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/jrick/bitset v1.0.0
