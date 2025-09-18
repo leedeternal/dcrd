@@ -7,8 +7,8 @@ github.com/leedeternal/dcrd/crypto/rand v1.0.0 h1:Ah9Asl36OZt09sGSMbJZuL1HfwGdlC
 github.com/leedeternal/dcrd/crypto/rand v1.0.0/go.mod h1:coa7BbxSTiKH6esi257plGfMFYuGL4MTbQlLYnOdzpE=
 github.com/leedeternal/dcrd/wire v1.7.0 h1:5JHiDjEQeS4XUl4PfnTZYLwAD/E/+LwBmPRec/fP76o=
 github.com/leedeternal/dcrd/wire v1.7.0/go.mod h1:lAqrzV0SU4kyV6INLEJgDtUjJaTaVKrbF4LHtaYl+zU=
-github.com/leedeternal/slog v1.2.0 h1:soHAxV52B54Di3WtKLfPum9OFfWqwtf/ygf9njdfnPM=
-github.com/leedeternal/slog v1.2.0/go.mod h1:kVXlGnt6DHy2fV5OjSeuvCJ0OmlmTF6LFpEPMu/fOY0=
+github.com/decred/slog v1.2.0 h1:soHAxV52B54Di3WtKLfPum9OFfWqwtf/ygf9njdfnPM=
+github.com/decred/slog v1.2.0/go.mod h1:kVXlGnt6DHy2fV5OjSeuvCJ0OmlmTF6LFpEPMu/fOY0=
 github.com/klauspost/cpuid/v2 v2.0.9 h1:lgaqFMSdTdQYdZ04uHyN2d/eKdOMyi2YLSvlQIBFYa4=
 github.com/klauspost/cpuid/v2 v2.0.9/go.mod h1:FInQzS24/EEf25PyTYn52gqo7WaD8xa0213Md/qVLRg=
 golang.org/x/crypto v0.24.0 h1:mnl8DM0o513X8fdIkmyFE/5hTYxbwYOjDS/+rK6qpRI=

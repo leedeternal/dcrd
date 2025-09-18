@@ -12,7 +12,7 @@ import (
 	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 	"github.com/leedeternal/dcrd/txscript/v4"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 // log is a logger that is initialized with no output filters.  This

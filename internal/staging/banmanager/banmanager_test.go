@@ -13,7 +13,7 @@ import (
 
 	"github.com/leedeternal/dcrd/peer/v3"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/go-socks/socks"
+	"github.com/decred/go-socks/socks"
 )
 
 // TestBanPeer tests ban manager peer banning functionality.

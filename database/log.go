@@ -6,7 +6,7 @@
 package database
 
 import (
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 // UseLogger uses a specified Logger to output package logging info.

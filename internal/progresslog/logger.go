@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 // pickNoun returns the singular or plural form of a noun depending on the

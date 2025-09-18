@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 // BlockProgressLogger provides periodic logging for other services in order

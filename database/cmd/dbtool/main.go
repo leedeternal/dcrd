@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/leedeternal/dcrd/database/v3"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 	flags "github.com/jessevdk/go-flags"
 )
 

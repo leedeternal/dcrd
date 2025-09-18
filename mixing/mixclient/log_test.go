@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/leedeternal/dcrd/mixing/mixpool"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 type testLog struct {

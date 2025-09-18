@@ -10,7 +10,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/leedeternal/base58"
+	"github.com/decred/base58"
 	"github.com/leedeternal/dcrd/crypto/ripemd160"
 	"github.com/leedeternal/dcrd/dcrec/edwards/v2"
 	"github.com/leedeternal/dcrd/dcrec/secp256k1/v4"

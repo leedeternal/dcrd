@@ -28,7 +28,7 @@ import (
 
 	"github.com/leedeternal/dcrd/dcrjson/v4"
 	chainjson "github.com/leedeternal/dcrd/rpc/jsonrpc/types/v4"
-	"github.com/leedeternal/go-socks/socks"
+	"github.com/decred/go-socks/socks"
 )
 
 var (

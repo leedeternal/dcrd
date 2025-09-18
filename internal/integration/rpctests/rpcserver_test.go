@@ -15,7 +15,7 @@ import (
 	"testing"
 
 	"github.com/leedeternal/dcrd/chaincfg/v3"
-	"github.com/leedeternal/dcrtest/dcrdtest"
+	"github.com/decred/dcrtest/dcrdtest"
 )
 
 func testGetBestBlock(ctx context.Context, r *dcrdtest.Harness, t *testing.T) {

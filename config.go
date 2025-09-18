@@ -32,8 +32,8 @@ import (
 	"github.com/leedeternal/dcrd/rpc/jsonrpc/types/v4"
 	"github.com/leedeternal/dcrd/sampleconfig"
 	"github.com/leedeternal/dcrd/txscript/v4/stdaddr"
-	"github.com/leedeternal/go-socks/socks"
-	"github.com/leedeternal/slog"
+	"github.com/decred/go-socks/socks"
+	"github.com/decred/slog"
 	flags "github.com/jessevdk/go-flags"
 )
 

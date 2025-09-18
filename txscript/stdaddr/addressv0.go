@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/leedeternal/base58"
+	"github.com/decred/base58"
 	"github.com/leedeternal/dcrd/crypto/blake256"
 	"github.com/leedeternal/dcrd/crypto/ripemd160"
 	"github.com/leedeternal/dcrd/dcrec"

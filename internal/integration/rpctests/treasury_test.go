@@ -30,7 +30,7 @@ import (
 	"github.com/leedeternal/dcrd/txscript/v4/sign"
 	"github.com/leedeternal/dcrd/txscript/v4/stdaddr"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/dcrtest/dcrdtest"
+	"github.com/decred/dcrtest/dcrdtest"
 )
 
 // timeoutCtx returns a context with the given timeout and automatically calls

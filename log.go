@@ -25,7 +25,7 @@ import (
 	"github.com/leedeternal/dcrd/mixing/mixpool"
 	"github.com/leedeternal/dcrd/peer/v3"
 	"github.com/leedeternal/dcrd/txscript/v4"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 	"github.com/jrick/logrotate/rotator"
 )
 

@@ -10,7 +10,7 @@ import (
 
 	"github.com/leedeternal/dcrd/database/v3"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 var log = slog.Disabled

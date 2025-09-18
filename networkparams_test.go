@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/leedeternal/base58"
+	"github.com/decred/base58"
 	"github.com/leedeternal/dcrd/blockchain/standalone/v2"
 	"github.com/leedeternal/dcrd/chaincfg/v3"
 )

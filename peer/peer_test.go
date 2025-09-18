@@ -17,7 +17,7 @@ import (
 
 	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/go-socks/socks"
+	"github.com/decred/go-socks/socks"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

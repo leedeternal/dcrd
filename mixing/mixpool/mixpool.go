@@ -23,7 +23,7 @@ import (
 	"github.com/leedeternal/dcrd/txscript/v4/stdaddr"
 	"github.com/leedeternal/dcrd/txscript/v4/stdscript"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 const minconf = 1

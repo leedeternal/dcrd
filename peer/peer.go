@@ -24,8 +24,8 @@ import (
 	"github.com/leedeternal/dcrd/crypto/blake256"
 	"github.com/leedeternal/dcrd/crypto/rand"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/go-socks/socks"
-	"github.com/leedeternal/slog"
+	"github.com/decred/go-socks/socks"
+	"github.com/decred/slog"
 )
 
 const (

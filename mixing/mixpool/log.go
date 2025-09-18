@@ -5,7 +5,7 @@
 package mixpool
 
 import (
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 // log is a logger that is initialized with no output filters.  This

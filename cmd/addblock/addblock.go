@@ -16,7 +16,7 @@ import (
 	"github.com/leedeternal/dcrd/internal/blockchain"
 	"github.com/leedeternal/dcrd/internal/blockchain/indexers"
 	"github.com/leedeternal/dcrd/internal/limits"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 const (

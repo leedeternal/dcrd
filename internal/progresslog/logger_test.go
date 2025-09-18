@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 var (

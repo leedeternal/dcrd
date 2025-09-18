@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

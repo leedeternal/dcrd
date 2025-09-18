@@ -69,7 +69,7 @@ All commits since the last release may be viewed on GitHub [here](https://github
 - multi: Drop glide, use dep [leedeternal/dcrd#818](https://github.com/leedeternal/dcrd/pull/818)
 - txsort: Implement stable tx sorting package  [leedeternal/dcrd#940](https://github.com/leedeternal/dcrd/pull/940)
 - coinset: Remove package [leedeternal/dcrd#888](https://github.com/leedeternal/dcrd/pull/888)
-- base58: Use new github.com/leedeternal/base58 package [leedeternal/dcrd#888](https://github.com/leedeternal/dcrd/pull/888)
+- base58: Use new github.com/decred/base58 package [leedeternal/dcrd#888](https://github.com/leedeternal/dcrd/pull/888)
 - certgen: Move self signed certificate code into package [leedeternal/dcrd#879](https://github.com/leedeternal/dcrd/pull/879)
 - certgen: Add doc.go and README.md [leedeternal/dcrd#883](https://github.com/leedeternal/dcrd/pull/883)
 - rpcclient: Allow request-scoped cancellation during Connect [leedeternal/dcrd#880](https://github.com/leedeternal/dcrd/pull/880)

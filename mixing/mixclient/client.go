@@ -30,7 +30,7 @@ import (
 	"github.com/leedeternal/dcrd/txscript/v4"
 	"github.com/leedeternal/dcrd/txscript/v4/stdaddr"
 	"github.com/leedeternal/dcrd/wire"
-	"github.com/leedeternal/slog"
+	"github.com/decred/slog"
 	"golang.org/x/sync/errgroup"
 )
 

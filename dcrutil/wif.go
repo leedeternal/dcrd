@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/leedeternal/base58"
+	"github.com/decred/base58"
 	"github.com/leedeternal/dcrd/chaincfg/chainhash"
 	"github.com/leedeternal/dcrd/dcrec"
 	"github.com/leedeternal/dcrd/dcrec/edwards/v2"
