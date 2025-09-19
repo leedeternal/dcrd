@@ -118,11 +118,11 @@ func SimNetParams() *Params {
 		// Subsidy parameters.
 		BaseSubsidy:              50000000000,
 		MulSubsidy:               100,
-		DivSubsidy:               101,
+		DivSubsidy:               200,
 		SubsidyReductionInterval: 128,
-		WorkRewardProportion:     6,
+		WorkRewardProportion:     5,
 		WorkRewardProportionV2:   1,
-		StakeRewardProportion:    3,
+		StakeRewardProportion:    4,
 		StakeRewardProportionV2:  8,
 		BlockTaxProportion:       1,
 
@@ -431,7 +431,7 @@ func SimNetParams() *Params {
 						IsNo:        false,
 					}},
 				},
-				ForcedChoiceID: "yes",
+				ForcedChoiceID: "no",
 				StartTime:      0,             // Always available for vote
 				ExpireTime:     math.MaxInt64, // Never expires
 			}},
@@ -488,7 +488,7 @@ func SimNetParams() *Params {
 						IsNo:        false,
 					}},
 				},
-				ForcedChoiceID: "yes",
+				ForcedChoiceID: "no",
 				StartTime:      0,             // Always available for vote
 				ExpireTime:     math.MaxInt64, // Never expires
 			}},
